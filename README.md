@@ -8,7 +8,13 @@ Para realizar a atividade de instalar o MINIX3 eu fiz uma pesquisa no [site do d
 ## 2. Configuração do Ambiente de Virtualização
 Inicialmente o SO MINIX3 foi feito para rodar em uma máquina física e real, ou seja, não virtualizada. Mas como eu não disponho de uma máquina física a qualquer momento para fazer isso, eu preferi seguir usando o [Oracle VM VirtualBox](https://www.virtualbox.org). Olhando a [documentação](https://wiki.minix3.org/doku.php?id=usersguide:runningonvirtualbox), configurei o VirtualBox.
 
+
+
 [Configuração, Ambiente Gráfico e montar pastas compartilhadas - VirtualBox](https://wiki.minix3.org/doku.php?id=usersguide:runningonvirtualbox#install_issue_no_hardware_acceleration)
 
 
 ## 3. Instalação básica do sistema
+
+
+
+https://sempreupdate.com.br/minix-veja-como-instalar-em-u/
