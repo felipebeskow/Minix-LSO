@@ -149,3 +149,4 @@ O Sistema Operacional Minix tem simplesmente um propósito maravilho que é most
 
 
 ###### Para consultar na integra, o relatório estará disponível no [GitHUb](https://github.com/felipebeskow/Minix-LSO).
+###### Entregue no dia 20 de setembro de 2019 às 15:45 horas.
