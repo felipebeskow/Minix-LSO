@@ -1,5 +1,6 @@
 # Instalação do Minix3 com Interface Gráfica
 
+###### Acadêmico: Felipe Helfensteler Beskow. RA: 1581201
 Relatório da Instalação do Sistema Operacional Minix3 para a disciplina de Laboratório de Sistemas Operacionais do Curso de Ciência da Computação da Universidade Tecnológica do Paraná (UTFPR-MD)
 
 ## 1. Materias e Métodos
@@ -8,12 +9,12 @@ Relatório da Instalação do Sistema Operacional Minix3 para a disciplina de La
 Para realizar a atividade de instalar o MINIX3 eu fiz uma pesquisa no [site do do minix](http://www.minix.org) onde está disponível a versão estável 3.3.0 para download. Porém como eu preciso de uma iso com interface gráfica, havia uma observação que dizia que a versão 3.4.0 vinha o Xorg instalado e configurado. Então pesquisando nos repositórios achei as [imagem do MINIX 3.4.0](http://download.minix3.org/iso/snapshot/). Então fiz o download da versão 3.4.0rc6.
 
 ### 1.2. Oracle VM VirtualBox
-Descrever o virtualbox e como baixar
+Para poder rodar o Minix, 
 
 ## 2. Implementação
+Inicialmente o SO MINIX3 foi feito para rodar em uma máquina física e real, ou seja, não virtualizada. Mas como eu não disponho de uma máquina física a qualquer momento para fazer isso, eu preferi seguir usando o [Oracle VM VirtualBox](https://www.virtualbox.org). Olhando a [documentação](https://wiki.minix3.org/doku.php?id=usersguide:runningonvirtualbox), configurei o VirtualBox.
 
 ### 2.1. Configuração do Ambiente de Virtualização
-Inicialmente o SO MINIX3 foi feito para rodar em uma máquina física e real, ou seja, não virtualizada. Mas como eu não disponho de uma máquina física a qualquer momento para fazer isso, eu preferi seguir usando o [Oracle VM VirtualBox](https://www.virtualbox.org). Olhando a [documentação](https://wiki.minix3.org/doku.php?id=usersguide:runningonvirtualbox), configurei o VirtualBox.
 
 ![Figura 1 - Criar máquina virtual 1](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/0%20-%20Configura%C3%A7%C3%A3o-VirtualBox-01.png)
 
@@ -77,9 +78,7 @@ O resto da instação será apenas seguindo o default:
 
 ![Figura 23 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2007.png)
 
-![Figura 24 - Instalação do
-
-![Figura 32 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2016.png) Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2008.png)
+![Figura 24 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2008.png)
 
 ![Figura 25 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2009.png)
 
@@ -101,7 +100,52 @@ Após a instalação iremos reiniciar e remover a ISO:
 
 ![Figura 33 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2017.png)
 
-### 2.3. 
+### 2.3. Inicializar o Minix pós instalação
+
+Ao iniciar o Minix ele irá aparecer a seguinte imagem:
+
+![Figura 34 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2001.png)
+
+Assim que iniciar, poderemos fazer o login:
+
+![Figura 35 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2002.png)
+
+O usuário é root, mas ainda não tem senha:
+
+![Figura 36 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2003.png)
+
+![Figura 37 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2004.png)
+
+Como não tem senha, vamos definir uma senha:
+
+![Figura 38 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2005.png)
+
+![Figura 39 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2006.png)
+
+![Figura 40 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2007.png)
+
+![Figura 41 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2008.png)
+
+Vamos fazer então o logoff e login de novo, só que dessa vez iremos precisar da senha que definimos antes
+
+![Figura 42 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2009.png)
+
+![Figura 43 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2010.png)
+
+![Figura 44 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2011.png)
+
+### 2.4. Interface Gráfica
+A iso do Minix 3.4.0rc6 já vem com uma interface gráfica instalada, porém não inicia junto com o sistema. Para inicia-la basta apenas chamar o comando para iniciar o Xorg:
+
+![Figura 45 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2012.png)
+
+Após isso, a sua tela terá uma interface gráfica bem básica, onde poderá usar três terminais e um relógio.
+
+![Figura 46 - Minix 3.4.0rc6 rodando](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/2%20-%20Primeira%20Inicializa%C3%A7%C3%A3o%20Minix%20-%2013.png)
+
+## 3. Conclusões
+
+O Sistema Operacional Minix tem simplesmente um propósito maravilho que é mostrar os conceitos básicos de SO num sistema POSIX. Mas não senti muitas dificuldade ao fazer sua instalação, ainda mais que a documentação do SO é muito bem detalhada, e o próprio te dá dica nas execuções.
 
 
-https://sempreupdate.com.br/minix-veja-como-instalar-em-u/
+###### Para consultar na integra, o relatório estará disponível no [GitHUb](https://github.com/felipebeskow/Minix-LSO).
