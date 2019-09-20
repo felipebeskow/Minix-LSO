@@ -45,7 +45,30 @@ Ao aparecer essa tela, o virtualbox pede para adicionar uma imagem do sistema op
 
 ![Figura 15 - Iniciar a máquina virtual](https://raw.githubusercontent.com/felipebeskow/Minix-LSO/master/Imagens/0%20-%20Configura%C3%A7%C3%A3o-VirtualBox-16.png)
 
-Após isso iremos iniciar a máquina virtual e ela irá dar o boot pela iso:
+Após isso iremos iniciar a máquina virtual e ela irá dar o boot pela ISO. A primeira tela que aparecerá será a abaixo, apenas aperte enter:
+![Figura 16 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2001.png)
 
+Fazemos o login no usuário root. Não precisa de senha:
+![Figura 17 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2002.png)
+
+Logo você estara logado como root:
+![Figura 18 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2003.png)
+
+Entre com o comando setup para começar a instalação:
+![Figura 19 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2004.png)
+
+O resto da instação será apenas seguindo o default:
+![Figura 21 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2005.png)
+![Figura 22 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2006.png)
+![Figura 23 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2007.png)
+![Figura 24 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2008.png)
+![Figura 25 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2009.png)
+![Figura 26 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2010.png)
+![Figura 27 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2011.png)
+![Figura 28 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2012.png)
+![Figura 29 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2013.png)
+![Figura 30 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2014.png)
+![Figura 31 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2015.png)
+![Figura 32 - Instalação do Minix](https://github.com/felipebeskow/Minix-LSO/raw/master/Imagens/1%20-%20Instala%C3%A7%C3%A3o%20Minix%20-%2016.png)
 
 https://sempreupdate.com.br/minix-veja-como-instalar-em-u/
